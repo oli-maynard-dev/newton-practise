@@ -1,5 +1,3 @@
-import pandas as pd
-
 def newton_method(f, x0, tol=1e-6, max_iter=100, h=1e-5):
     x = x0
     log = [(x, f(x))]
